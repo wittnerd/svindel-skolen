@@ -1,1 +1,24 @@
-site_name: My Docs
+site_name: Digital sikkerhet
+site_description: Et fiktivt minikurs om phishing
+
+theme:
+  name: material
+  language: nb
+  font: false
+  features:
+    - navigation.sections
+
+nav:
+  - Hjem: index.md
+  - Minikurs om phishing:
+      - Introduksjon: introduksjon.md
+      - Kjennetegn: kjennetegn.md
+      - Øvelse: ovelse.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
