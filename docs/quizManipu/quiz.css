@@ -76,6 +76,7 @@ body {
   flex-direction: column;
   gap: 10px;
   margin-bottom: 12px;
+  #border: 2px solid #d0d0d0;
 }
 
 .option {
@@ -237,3 +238,23 @@ body {
   }
 }
 
+
+.option.selected {
+  background-color: #e8f0fe;
+  border-color: #2563eb;
+}
+
+.option.correct {
+  background-color: #e6f4ea;
+  border-color: #188038;
+}
+
+.option.wrong {
+  background-color: #fce8e6;
+  border-color: #d93025;
+}
+
+.option.missed {
+  background-color: #fff4cc;
+  border-color: #e0a800;
+}

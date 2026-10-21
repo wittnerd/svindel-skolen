@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+  <script src="quiz.js" defer></script>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <div id="quiz">
+        <div class="top">
+          <span class="q-counter" id="counter"></span>
+          <span class="q-score" id="scoreChip">0 poeng</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-fill" id="progress"></div>
+        </div>
+
+        <h1 class="question" id="question" aria-describedby="questionHint"></h1>
+        <p id="questionHint">
+          ℹ️ Du kan velge flere eller et
+        </p>
+
+        <div class="options" id="options"></div>
+        <p class="feedback" id="feedback" aria-live="polite"></p>
+
+        <button class="next-btn" id="nextBtn" type="button" disabled>
+          Neste
+        </button>
+      </div>
+
+      <div class="results" id="results" hidden>
+        <div class="result-ring">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <circle class="rbg" cx="60" cy="60" r="52"></circle>
+            <circle class="rfg" id="resultRing" cx="60" cy="60" r="52"></circle>
+          </svg>
+          <div class="result-pct" id="resultPct">0%</div>
+        </div>
+
+        <h2 class="result-title" id="resultTitle"></h2>
+        <p class="result-sub" id="resultSub"></p>
+        <button class="next-btn" id="restartBtn" type="button">
+          Prøv igjen
+        </button>
+      </div>
+
+      <p class="error" id="error" role="alert" hidden></p>
+    </section>
+  </main>
+</body>
+</html>

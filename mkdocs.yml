@@ -1,5 +1,5 @@
-site_name: Digital sikkerhet
-site_description: Et fiktivt minikurs om phishing
+site_name: "Svindel og sikkerhetskultur for eldre 👴🏽🧓🏽"
+site_description: Kurset
 
 theme:
   name: material
@@ -9,8 +9,14 @@ theme:
     - navigation.sections
 
 nav:
-  - Hjem: index.md
-  - Minikurs om phishing:
+  - Forside: index.md
+  - Kurset:
+      - Hvordan lurer de deg ?: lurer.md 
+      - Generell sikkerhetskultur : sikkerhetskultur.md
+      - Maniplueringssvindel: maniplueringssvindel.md
+      - KI-svindel og Deepfakes: kisvindel.md
+      - Phishing: phishing.md
+
       - Introduksjon: introduksjon.md
       - Kjennetegn: kjennetegn.md
       - Øvelse: ovelse.md

@@ -1,0 +1,57 @@
+{
+  "title": "Quiz",
+  "questions": [
+    {
+      "q": "Prøv selv: Du ser en innsamling på Facebook fra en person du ikke kjenner. Historien er trist og rørende. Hva er lurt å sjekke før du gir penger? (Du kan velge flere.)",
+      "opts": [
+        "Hvem som står bak innsamlingen, og hva de har med saken å gjøre",
+        "Om venner og familie har gitt penger eller skrevet kommentarer",
+        "Om historien er trist nok til at den må være sann",
+        "Om historien kan være kopiert fra noen andre"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Bra! Å sjekke hvem som står bak, hvem som har gitt, og om historien er kopiert, er gode grep. At en historie er trist, er ikke bevis på at den er sann. Svindlere skriver ofte historiene sine nettopp for at du skal bli rørt og slutte å tenke."
+    },
+    {
+      "q": "Prøv selv: Du har skrevet med en person på Facebook i flere måneder. Dere har aldri møttes, men har sendt bilder og snakket sammen på video. Nå ber personen om penger til en sykehusregning. Hva er tryggest å gjøre?",
+      "opts": [
+        "Sende et lite beløp, så du ikke mister kontakten",
+        "Snakke med en venn eller et familiemedlem du stoler på, før du gjør noe",
+        "Be om en ny videosamtale som bevis"
+      ],
+      "correct": 1,
+      "explanation": "Riktig! Å snakke med noen du stoler på er den viktigste regelen. Utenforstående ser ofte raskt det du er for nær til å se. Og husk: du skal ikke sende penger til noen du ikke har møtt i virkeligheten.",
+      "incorrectExplanation": "Det virker logisk, men i dag kan svindlere lage falske bilder og videoer som ser veldig ekte ut. Det kommer vi tilbake til på neste side. Prøv en gang til."
+    },
+    {
+      "q": "Hva har falske innsamlinger og kjærlighetssvindel til felles?",
+      "opts": [
+        "De skjer bare på sosiale medier",
+        "De spiller på følelsene og tilliten din for å få penger",
+        "De rammer bare ensomme mennesker"
+      ],
+      "correct": 1,
+      "explanation": "Riktig! Begge bruker følelser som medfølelse og kjærlighet til å få deg til å slutte å tenke kritisk. Det kan skje hvem som helst."
+    },
+    {
+      "q": "Hva er den vanligste rekkefølgen i kjærlighetssvindel?",
+      "opts": [
+        "Krise og pengebehov, så kontakt, så tillit",
+        "Kontakt, så tillit, så krise og pengebehov",
+        "Pengebehov, så kontakt, så tillit"
+      ],
+      "correct": 1,
+      "explanation": "Riktig! Svindleren bruker tid på å bygge tillit først. Når du kjenner igjen rekkefølgen, er det lettere å stoppe opp når krisen kommer."
+    },
+    {
+      "q": "Hva er den viktigste regelen hvis noen du bare kjenner fra nettet ber om penger?",
+      "opts": [
+        "Gi litt, så det ikke blir ubehagelig",
+        "Ikke sende penger, og snakke med noen du stoler på",
+        "Vente noen uker og se om personen spør igjen"
+      ],
+      "correct": 1,
+      "explanation": "Riktig! Det er helt i orden å si nei. Og hvis du allerede har sendt penger, er det ikke din skyld. Fortell det til noen, og ta kontakt med banken din og politiet."
+    }
+  ]
+}
