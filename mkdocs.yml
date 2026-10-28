@@ -1,4 +1,4 @@
-site_name: "Svindel og sikkerhetskultur for eldre 👴🏽🧓🏽"
+site_name: "SvindelSkolen"
 site_description: Kurset
 
 theme:
@@ -10,18 +10,15 @@ theme:
 
 nav:
   - Intro: index.md
-  - Kurset:
+  - Moduler:
       - 1. Hvordan de lurer deg: lurer.md 
       - 2. Manipuleringssvindel: manipuleringssvindel.md
       - 3. Phishing: phishing.md
       - 4. KI-svindel: kisvindel.md
 
-      - Introduksjon: introduksjon.md
-      - Kjennetegn: kjennetegn.md
-      - Øvelse: ovelse.md
-
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
   - pymdownx.superfences
 

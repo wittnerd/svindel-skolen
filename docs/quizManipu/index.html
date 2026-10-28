@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Quiz</title>
   <link rel="stylesheet" href="quiz.css">
+  <script src="../javascripts/vendor/js-confetti.browser.js" defer></script>
+  <script src="../javascripts/quiz-confetti.js" defer></script>
   <script src="quiz.js" defer></script>
   <script src="../javascripts/quiz-frame.js" defer></script>
 </head>
@@ -21,9 +23,9 @@
           <div class="progress-fill" id="progress"></div>
         </div>
 
-        <h1 class="question" id="question" aria-describedby="questionHint"></h1>
-        <p id="questionHint">
-          ℹ️ Du kan velge flere eller et
+        <h1 class="question" id="question"></h1>
+        <p id="questionHint" hidden>
+          Du kan velge flere svar
         </p>
 
         <div class="options" id="options"></div>

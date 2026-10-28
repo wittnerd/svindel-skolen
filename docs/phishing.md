@@ -86,3 +86,5 @@ Hvis du har oppgitt et passord: Bytt det gjennom tjenestens offisielle app eller
 
 !!! warning "Dokumenter"
     **Ta vare på dukumentasjon av hendelsen for eksempel gjennom et bilde. Det kan være nyttig når du skal forklare hva som har skjedd.**
+
+[Gå videre til 4. KI-svindel →](kisvindel.md){ .course-next }

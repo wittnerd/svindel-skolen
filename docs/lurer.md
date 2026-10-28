@@ -22,3 +22,5 @@ Disse tre elementene, ofte også satt sammen, legger en god grunnmur for at svin
   height="450"
   style="border: 0;">
 </iframe>
+
+[Gå videre til 2. Manipuleringssvindel →](manipuleringssvindel.md){ .course-next }

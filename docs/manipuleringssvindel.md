@@ -18,3 +18,5 @@ Denne typen svindel viser hvordan svindlere kan utnytte menneskers følelser og 
 # Kjærlighet
 
 En annen type svindel som også utnytter menneskers følelser og tillit, er kjærlighetssvindel. Denne typen svindel var ikke særlig kjent blant folk flest, men hendelsen som satte stort fokus på kjærlighetssvindel er saken om den falske Brad Pitt. En kvinne trodde at hun snakket med Brad Pitt. Hun og svindlerne bygde gradvis et romantisk forhold gjennom daglige meldinger, bilder og videoer, som var laget ved hjelp av KI. Deretter ba svindlerne henne om penger på grunn av påståtte helseproblemer. Kvinnen, som trodde at hun faktisk snakket med Brad Pitt og var følelsesmessig knyttet til ham, sendte omtrent 830 000 euro til svindlerne.
+
+[Gå videre til 3. Phishing →](phishing.md){ .course-next }
