@@ -13,4 +13,10 @@ Metode tre er litt lik nummer to i at den også spiller på følelser. I likhet 
 
 Disse tre elementene, ofte også satt sammen, legger en god grunnmur for at svindlere kan lure deg. Svindlerne er svært utspekulerte, og teknikkene brukt har som mål å distrahere deg fra å stoppe opp å tenke om dette faktisk er ekte eller ikke.
 
-Prøv selv: Du får en telefon fra en mann som sier han er fra banken. Han sier at kontoen din er i fare, og at du må gi ham en kode med en gang. Hvilke av de tre knepene kjenner du igjen? (Du kan velge flere.)
+<iframe
+  src="../quizSikkerhets/"
+  title="Quiz sur le phishing"
+  width="100%"
+  height="850"
+  style="border: 0;">
+</iframe>

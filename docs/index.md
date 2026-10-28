@@ -1,4 +1,4 @@
-# Forside
+# Intro
 
 Vi lever i en verden som stadig blir mer digitalisert og det kan være vanskelig og henge med. Det er mange som ikke har nødvendig kunnskap om teknologien som tas i bruk og har dermed større risiko for å bli svindlet på nett. I en undersøkelse fra 2025 kommer det frem at nesten [1 av 5 nordmenn har opplevd å bli svindlet i løpet av livet.](https://nkom.no/aktuelt/nesten-1-av-5-nordmenn-har-blitt-svindlet)
 

@@ -9,11 +9,10 @@ theme:
     - navigation.sections
 
 nav:
-  - Forside: index.md
+  - Intro: index.md
   - Kurset:
       - Hvordan lurer de deg ?: lurer.md 
-      - Generell sikkerhetskultur : sikkerhetskultur.md
-      - Maniplueringssvindel: maniplueringssvindel.md
+      - Manipuleringssvindel: manipuleringssvindel.md
       - KI-svindel og Deepfakes: kisvindel.md
       - Phishing: phishing.md
 
