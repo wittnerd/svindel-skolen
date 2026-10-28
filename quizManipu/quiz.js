@@ -4,6 +4,7 @@ let questions = [];
 let current = 0;
 let score = 0;
 let answered = false;
+let selectedAnswers = new Set();
 
 const circumference = 326.7;
 
@@ -11,18 +12,29 @@ function optionLabel(index) {
   return index < 26 ? String.fromCharCode(65 + index) : String(index + 1);
 }
 
+function correctIndices(item) {
+  return Array.isArray(item.correct) ? item.correct : [item.correct];
+}
+
 function renderQuestion() {
   answered = false;
+  selectedAnswers = new Set();
 
   const item = questions[current];
+  const isMultiSelect = Array.isArray(item.correct);
+
   $("counter").textContent = `Spørsmål ${current + 1} av ${questions.length}`;
   $("scoreChip").textContent = `${score} poeng`;
   $("question").textContent = item.q;
   $("progress").style.width = `${((current + 1) / questions.length) * 100}%`;
   $("feedback").textContent = "";
-  $("nextBtn").disabled = true;
-  $("nextBtn").textContent =
-    current === questions.length - 1 ? "Se resultat" : "Neste";
+
+  $("nextBtn").disabled = isMultiSelect;
+  $("nextBtn").textContent = isMultiSelect
+    ? "Sjekk svar"
+    : current === questions.length - 1
+      ? "Se resultat"
+      : "Neste";
 
   const options = $("options");
   options.replaceChildren();
@@ -50,32 +62,77 @@ function renderQuestion() {
 
 function selectAnswer(selectedIndex) {
   if (answered) return;
+
+  const item = questions[current];
+  const isMultiSelect = Array.isArray(item.correct);
+  const buttons = $("options").querySelectorAll(".option");
+
+  if (isMultiSelect) {
+    if (selectedAnswers.has(selectedIndex)) {
+      selectedAnswers.delete(selectedIndex);
+      buttons[selectedIndex].classList.remove("selected");
+    } else {
+      selectedAnswers.add(selectedIndex);
+      buttons[selectedIndex].classList.add("selected");
+    }
+
+    $("nextBtn").disabled = selectedAnswers.size === 0;
+    return;
+  }
+
+  selectedAnswers = new Set([selectedIndex]);
+  checkAnswer();
+}
+
+function checkAnswer() {
+  if (answered || selectedAnswers.size === 0) return;
+
   answered = true;
 
   const item = questions[current];
+  const correct = correctIndices(item);
   const buttons = $("options").querySelectorAll(".option");
-  const isCorrect = selectedIndex === item.correct;
 
-  buttons.forEach((button, index) => {
-    button.disabled = true;
+  const isCorrect =
+    selectedAnswers.size === correct.length &&
+    correct.every((index) => selectedAnswers.has(index));
 
-    if (index === item.correct) {
-      button.classList.add("correct");
-      button.querySelector(".mark").textContent = "✓";
-    }
-  });
+  const isMultiSelect = Array.isArray(item.correct);
+
+buttons.forEach((button, index) => {
+  button.disabled = true;
+
+  if (correct.includes(index) && selectedAnswers.has(index)) {
+    button.classList.add("correct");
+    button.querySelector(".mark").textContent = "✓";
+  } else if (correct.includes(index) && isMultiSelect) {
+    button.classList.add("missed");
+    button.querySelector(".mark").textContent = "!";
+  } else if (selectedAnswers.has(index)) {
+    button.classList.add("wrong");
+    button.querySelector(".mark").textContent = "✕";
+  } else if (correct.includes(index)) {
+    button.classList.add("correct");
+    button.querySelector(".mark").textContent = "✓";
+  }
+});
 
   if (isCorrect) {
     score++;
-  } else {
-    buttons[selectedIndex].classList.add("wrong");
-    buttons[selectedIndex].querySelector(".mark").textContent = "✕";
   }
 
   $("scoreChip").textContent = `${score} poeng`;
+
+  const explanation = isCorrect
+    ? item.explanation
+    : item.incorrectExplanation || item.explanation;
+
   $("feedback").textContent =
-    `${isCorrect ? "Riktig!" : "Ikke helt."} ${item.explanation || ""}`;
+    `${isCorrect ? "Riktig!" : "Ikke helt."} ${explanation || ""}`;
+
   $("nextBtn").disabled = false;
+  $("nextBtn").textContent =
+    current === questions.length - 1 ? "Se resultat" : "Neste";
 }
 
 function showResults() {
@@ -107,16 +164,28 @@ function nextQuestion() {
   }
 }
 
+function handleNextButton() {
+  const item = questions[current];
+
+  if (Array.isArray(item.correct) && !answered) {
+    checkAnswer();
+  } else {
+    nextQuestion();
+  }
+}
+
 function restart() {
   current = 0;
   score = 0;
+
   $("results").hidden = true;
   $("quiz").hidden = false;
   $("resultRing").style.strokeDashoffset = String(circumference);
+
   renderQuestion();
 }
 
-$("nextBtn").addEventListener("click", nextQuestion);
+$("nextBtn").addEventListener("click", handleNextButton);
 $("restartBtn").addEventListener("click", restart);
 
 fetch("./questions.json")
@@ -138,4 +207,3 @@ fetch("./questions.json")
     $("error").hidden = false;
     $("error").textContent = `Kunne ikke laste quizen: ${error.message}`;
   });
-

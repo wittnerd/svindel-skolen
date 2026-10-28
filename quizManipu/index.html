@@ -20,9 +20,14 @@
           <div class="progress-fill" id="progress"></div>
         </div>
 
-        <h1 class="question" id="question"></h1>
+        <h1 class="question" id="question" aria-describedby="questionHint"></h1>
+        <p id="questionHint">
+          ℹ️ Du kan velge flere eller et
+        </p>
+
         <div class="options" id="options"></div>
         <p class="feedback" id="feedback" aria-live="polite"></p>
+
         <button class="next-btn" id="nextBtn" type="button" disabled>
           Neste
         </button>
@@ -49,4 +54,3 @@
   </main>
 </body>
 </html>
-
