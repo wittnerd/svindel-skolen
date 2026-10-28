@@ -11,7 +11,7 @@ Denne typen svindel viser hvordan svindlere kan utnytte menneskers følelser og 
   src="../quizManipu/"
   title="Quiz sur le phishing"
   width="100%"
-  height="850"
+  height="450"
   style="border: 0;">
 </iframe>
 

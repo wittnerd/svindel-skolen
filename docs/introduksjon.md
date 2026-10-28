@@ -13,6 +13,6 @@ Mistenkelige meldinger kan komme på e-post, SMS eller i sosiale medier.
   src="../quiz/"
   title="Quiz sur le phishing"
   width="100%"
-  height="700"
+  height="450"
   style="border: 0;">
 </iframe>

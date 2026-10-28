@@ -17,6 +17,6 @@ Disse tre elementene, ofte også satt sammen, legger en god grunnmur for at svin
   src="../quizSikkerhets/"
   title="Quiz sur le phishing"
   width="100%"
-  height="850"
+  height="450"
   style="border: 0;">
 </iframe>
