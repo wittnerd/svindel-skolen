@@ -1,4 +1,4 @@
-# Hvordan de lurer deg ?
+# Hvordan de lurer deg
 
 Senere skal vi se på at svindler kan komme i mange forskjellige former, men det første man kanskje lurer på er hvordan blir folk lurt. Her er det tre hovedmetoder svindlere benytter for å få oss til å gå fem på.
 

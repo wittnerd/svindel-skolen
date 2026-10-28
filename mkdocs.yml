@@ -11,10 +11,10 @@ theme:
 nav:
   - Intro: index.md
   - Kurset:
-      - Hvordan lurer de deg ?: lurer.md 
-      - Manipuleringssvindel: manipuleringssvindel.md
-      - KI-svindel og Deepfakes: kisvindel.md
-      - Phishing: phishing.md
+      - 1. Hvordan de lurer deg: lurer.md 
+      - 2. Manipuleringssvindel: manipuleringssvindel.md
+      - 3. Phishing: phishing.md
+      - 4. KI-svindel: kisvindel.md
 
       - Introduksjon: introduksjon.md
       - Kjennetegn: kjennetegn.md
