@@ -48,6 +48,8 @@ Vær ekstra oppmerksom når en melding:
 
 En melding kan være svindel selv om språket er godt og avsendernavnet ser riktig ut. Navn og logoer kan kopieres.
 
+![yap](Images/scam_hand_stealing.jpg) 
+
 ## Slik beskytter du deg: Stopp, tenk og sjekk
 
 ### 1. Stopp opp
