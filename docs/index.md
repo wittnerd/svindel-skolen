@@ -4,4 +4,7 @@ Vi lever i en verden som stadig blir mer digitalisert og det kan være vanskelig
 
 Vi ønsker å hjelpe og har derfor utviklet denne interaktive nettsiden hvor du vil lære om svindel, hvordan svindler tar plass og hva DU bør gjøre for å unngå å bli svindlet selv.
 
+---
+![](Images/scam_hand_stealing.jpg)
+
 

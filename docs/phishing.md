@@ -4,6 +4,8 @@ Du har kanskje fått en SMS om en pakke du ikke venter på, eller en e-post om a
 
 Dette kalles *phishing*, eller *nettfisking* på norsk. Svindleren prøver å lure deg til å gi fra deg opplysninger, betale penger eller gjøre noe som gir dem tilgang til kontoene dine. Ofte later svindleren som meldingen kommer fra banken, Posten, et parkeringsselskap eller en offentlig tjeneste. De kan også utgi seg for å være noen du kjenner.
 
+![yap](Images/Twitter-Message-Free-iPads.png) 
+
 ## Hvordan foregår det?
 
 Svindelen begynner ofte med en SMS eller e-post som ber deg trykke på en lenke. En lenke er tekst eller en knapp som åpner en nettside.
@@ -48,7 +50,7 @@ Vær ekstra oppmerksom når en melding:
 
 En melding kan være svindel selv om språket er godt og avsendernavnet ser riktig ut. Navn og logoer kan kopieres.
 
-![yap](Images/scam_hand_stealing.jpg) 
+
 
 ## Slik beskytter du deg: Stopp, tenk og sjekk
 
