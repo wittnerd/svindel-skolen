@@ -1,0 +1,56 @@
+
+{
+  "title": "Quiz",
+  "questions": [
+    {
+      "q": "Hva er en språkmodell først og fremst trent til å gjøre?",
+      "opts": [
+        "Slå opp alle svar i en feilfri database",
+        "Forutsi hvilke ord eller tegn som sannsynligvis kommer neste",
+        "Forstå verden på samme måte som et menneske"
+      ],
+      "correct": [1],
+      "explanation": "Riktig! En språkmodell er først og fremst trent til å forutsi hvilke ord eller tegn som sannsynligvis kommer neste, basert på mønstre i treningsdataene."
+    },
+    {
+      "q": "Hva er en viktig forskjell mellom en deepfake og vanlig videoredigering?",
+      "opts": [
+        "Deepfakes kan bare lages med mobiltelefon",
+        "Vanlig videoredigering kan ikke endre lyd",
+        "Deepfakes bruker ofte KI til å lage eller endre ansikter, stemmer eller bevegelser"
+      ],
+      "correct": [2],
+      "explanation": "Riktig! Deepfakes bruker ofte kunstig intelligens til å lage eller manipulere ansikter, stemmer eller bevegelser slik at innholdet kan virke ekte."
+    },
+    {
+      "q": "Hva bør du gjøre før du deler et bilde eller en video som virker oppsiktsvekkende?",
+      "opts": [
+        "Sjekke avsenderen og se om pålitelige kilder bekrefter innholdet",
+        "Dele det raskt så flere kan vurdere det",
+        "Gå ut fra at det er ekte hvis kvaliteten er god"
+      ],
+      "correct": [0],
+      "explanation": "Riktig! Sjekk hvem som har publisert innholdet, og om flere pålitelige kilder bekrefter det. Bilder og videoer kan manipuleres med KI."
+    },
+    {
+      "q": "Hvordan kan du best beskytte personopplysninger når du bruker en KI-tjeneste?",
+      "opts": [
+        "Skrive inn passordet for å få mer personlige svar",
+        "Unngå å skrive inn sensitive opplysninger du ikke trenger å dele",
+        "Dele så mye som mulig, men be KI-en holde det hemmelig"
+      ],
+      "correct": [1],
+      "explanation": "Riktig! Unngå å dele sensitive personopplysninger som ikke er nødvendige. Tenk over hvilken informasjon du legger inn i KI-tjenester."
+    },
+    {
+      "q": "Du mottar en talemelding fra en bekjent som ber om penger. Hva er tryggest å gjøre?",
+      "opts": [
+        "Sende pengene med én gang hvis stemmen høres kjent ut",
+        "Ringe personen på et nummer du allerede kjenner, og bekrefte forespørselen",
+        "Svare med personlige opplysninger for å sjekke hvem det er"
+      ],
+      "correct": [1],
+      "explanation": "Riktig! Ring personen på et nummer du allerede kjenner for å bekrefte forespørselen. Stemmer kan klones med KI, så du bør ikke stole blindt på en talemelding."
+    }
+  ]
+}

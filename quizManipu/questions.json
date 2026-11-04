@@ -26,21 +26,21 @@
     {
       "q": "Hva har falske innsamlinger og kjærlighetssvindel til felles?",
       "opts": [
-        "De skjer bare på sosiale medier",
         "De spiller på følelsene og tilliten din for å få penger",
+        "De skjer bare på sosiale medier",
         "De rammer bare ensomme mennesker"
       ],
-      "correct": 1,
+      "correct": 0,
       "explanation": "Riktig! Begge bruker følelser som medfølelse og kjærlighet til å få deg til å slutte å tenke kritisk. Det kan skje hvem som helst."
     },
     {
       "q": "Hva er den vanligste rekkefølgen i kjærlighetssvindel?",
       "opts": [
         "Krise og pengebehov, så kontakt, så tillit",
-        "Kontakt, så tillit, så krise og pengebehov",
-        "Pengebehov, så kontakt, så tillit"
+        "Pengebehov, så kontakt, så tillit",
+        "Kontakt, så tillit, så krise og pengebehov"
       ],
-      "correct": 1,
+      "correct": 2,
       "explanation": "Riktig! Svindleren bruker tid på å bygge tillit først. Når du kjenner igjen rekkefølgen, er det lettere å stoppe opp når krisen kommer."
     },
     {
