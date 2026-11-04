@@ -30,3 +30,12 @@ Bruk et langt og unikt passord til hver tjeneste. Slå også på [totrinnsbekref
 
 
 Som vi så på tidligere, så bør du handle raskt om du tror du har blitt svindlet. Har du overført penger, delt kortopplysninger eller gitt fra deg BankID-informasjon, må du kontakte banken med en gang. Har du delt et passord, må du bytte det gjennom tjenestens offisielle app eller nettside. Ta vare på meldinger, telefonnumre og kvitteringer, slik at du kan vise hva som har skjedd når du melder fra eller anmelder saken.
+
+
+<iframe
+  src="../quizKI/"
+  title="Quiz sur le phishing"
+  width="100%"
+  height="450"
+  style="border: 0;">
+</iframe>

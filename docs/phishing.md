@@ -87,4 +87,12 @@ Hvis du har oppgitt et passord: Bytt det gjennom tjenestens offisielle app eller
 !!! warning "Dokumenter"
     **Ta vare på dukumentasjon av hendelsen for eksempel gjennom et bilde. Det kan være nyttig når du skal forklare hva som har skjedd.**
 
+<iframe
+  src="../quizPhishing/"
+  title="Quiz sur le phishing"
+  width="100%"
+  height="450"
+  style="border: 0;">
+</iframe>
+
 [Gå videre til 4. KI-svindel →](kisvindel.md){ .course-next }
