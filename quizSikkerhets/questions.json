@@ -2,7 +2,7 @@
   "title": "Quiz",
   "questions": [
     {
-      "q": "Prøv selv: Du får en telefon fra en mann som sier han er fra banken. Han sier at kontoen din er i fare, og at du må gi ham en kode med en gang. Hvilke av de tre knepene kjenner du igjen? ",
+      "q": "Du får en telefon fra en mann som sier han er fra banken. Han sier at kontoen din er i fare, og at du må gi ham en kode med en gang. Hvilke av de tre knepene kjenner du igjen? ",
       "opts": [
         "Etterligning: han later som han er fra banken",
         "Hastverk og stress: det haster “med en gang”",
@@ -12,7 +12,7 @@
       "explanation": "Godt jobbet! Her brukes to av knepene. Han utgir seg for å være banken, og han skaper hastverk. Svindlere kombinerer ofte flere knep, akkurat som her. Når noen presser deg til å handle fort, er det tegn på at du bør stoppe opp."
     },
     {
-      "q": "Prøv selv: Du finner en USB-pinne på bussen. Den ser ny ut, og du lurer på hvem som eier den. Hva er tryggest å gjøre?",
+      "q": "Du finner en USB-pinne på bussen. Den ser ny ut, og du lurer på hvem som eier den. Hva er tryggest å gjøre?",
       "opts": [
         "Sette den i datamaskinen for å finne ut hvem den tilhører",
         "Levere den til hittegods eller la den ligge",

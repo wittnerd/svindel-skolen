@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-  min-height: 60vh;
   padding: 12px;
   display: flex;
   align-items: center;
@@ -21,9 +20,9 @@ body {
 .card {
   width: 100%;
   padding: 20px;
-  border-radius: 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
   background: #fff;
-  box-shadow: 0 14px 14px rgba(50, 20, 90, 0.3);
 }
 
 .top {
@@ -35,22 +34,19 @@ body {
 }
 
 .q-counter {
-  color: #94a3b8;
+  color: #64748b;
   font-size: 12px;
   font-weight: 700;
 }
 
 .q-score {
-  padding: 4px 12px;
-  border-radius: 20px;
-  color: #7c3aed;
-  background: #f3e8ff;
+  color: #475569;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .progress {
-  height: 6px;
+  height: 4px;
   margin-bottom: 14px;
   overflow: hidden;
   border-radius: 3px;
@@ -61,7 +57,7 @@ body {
   width: 0;
   height: 100%;
   border-radius: 3px;
-  background: linear-gradient(90deg, #7c3aed, #a855f7);
+  background: #6b7280;
   transition: width 0.4s ease;
 }
 
@@ -93,7 +89,7 @@ body {
   min-width: 0;
   padding: 9px;
   border: 2px solid #e2e8f0;
-  border-radius: 12px;
+  border-radius: 6px;
   color: #334155;
   background: #fff;
   font-size: 13px;
@@ -103,8 +99,14 @@ body {
 }
 
 .option:hover:not(:disabled) {
-  border-color: #c4b5fd;
-  background: #faf5ff;
+  border-color: #9ca3af;
+  background: #f9fafb;
+}
+
+.option:focus-visible,
+.next-btn:focus-visible {
+  outline: 2px solid #374151;
+  outline-offset: 3px;
 }
 
 .option:disabled {
@@ -117,15 +119,15 @@ body {
   width: 22px;
   height: 22px;
   place-items: center;
-  border-radius: 7px;
+  border-radius: 4px;
   color: #64748b;
   background: #f1f5f9;
   font-size: 11px;
 }
 
 .option.selected {
-  background-color: #e8f0fe;
-  border-color: #2563eb;
+  background-color: #f3f4f6;
+  border-color: #4b5563;
 }
 
 .option.correct {
@@ -169,16 +171,16 @@ body {
   width: 100%;
   padding: 11px;
   border: 0;
-  border-radius: 14px;
+  border-radius: 6px;
   color: #fff;
-  background: #7c3aed;
+  background: #374151;
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 600;
   cursor: pointer;
 }
 
 .next-btn:hover:not(:disabled) {
-  background: #6d28d9;
+  background: #1f2937;
 }
 
 .next-btn:disabled {
@@ -216,7 +218,7 @@ body {
 }
 
 .rfg {
-  stroke: #7c3aed;
+  stroke: #6b7280;
   stroke-linecap: round;
   stroke-dasharray: 326.7;
   stroke-dashoffset: 326.7;
@@ -230,7 +232,7 @@ body {
   place-items: center;
   color: #1e293b;
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .result-title {

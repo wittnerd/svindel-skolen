@@ -2,7 +2,7 @@
   "title": "Quiz",
   "questions": [
     {
-      "q": "Prøv selv: Du ser en innsamling på Facebook fra en person du ikke kjenner. Historien er trist og rørende. Hva er lurt å sjekke før du gir penger? (Du kan velge flere.)",
+      "q": "Du ser en innsamling på Facebook fra en person du ikke kjenner. Historien er trist og rørende. Hva er lurt å sjekke før du gir penger? (Du kan velge flere.)",
       "opts": [
         "Hvem som står bak innsamlingen, og hva de har med saken å gjøre",
         "Om venner og familie har gitt penger eller skrevet kommentarer",
@@ -13,7 +13,7 @@
       "explanation": "Bra! Å sjekke hvem som står bak, hvem som har gitt, og om historien er kopiert, er gode grep. At en historie er trist, er ikke bevis på at den er sann. Svindlere skriver ofte historiene sine nettopp for at du skal bli rørt og slutte å tenke."
     },
     {
-      "q": "Prøv selv: Du har skrevet med en person på Facebook i flere måneder. Dere har aldri møttes, men har sendt bilder og snakket sammen på video. Nå ber personen om penger til en sykehusregning. Hva er tryggest å gjøre?",
+      "q": "Du har skrevet med en person på Facebook i flere måneder. Dere har aldri møttes, men har sendt bilder og snakket sammen på video. Nå ber personen om penger til en sykehusregning. Hva er tryggest å gjøre?",
       "opts": [
         "Sende et lite beløp, så du ikke mister kontakten",
         "Snakke med en venn eller et familiemedlem du stoler på, før du gjør noe",

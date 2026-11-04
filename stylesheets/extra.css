@@ -2,3 +2,29 @@
   --md-text-font: system-ui, sans-serif;
   --md-code-font: ui-monospace, monospace;
 }
+
+.md-typeset .course-next {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 1.5rem auto 0;
+  padding: 0.75em 1.1em;
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 6px;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+.md-typeset .course-next:hover {
+  background: var(--md-primary-fg-color--dark);
+  border-color: var(--md-primary-fg-color--dark);
+  color: var(--md-primary-bg-color);
+}
+
+.md-typeset .course-next:focus-visible {
+  outline: 2px solid var(--md-default-fg-color);
+  outline-offset: 3px;
+}

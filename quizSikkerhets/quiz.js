@@ -21,11 +21,17 @@ function renderQuestion() {
   selectedAnswers = new Set();
 
   const item = questions[current];
-  const isMultiSelect = Array.isArray(item.correct);
+  const isMultiSelect = correctIndices(item).length > 1;
 
   $("counter").textContent = `Spørsmål ${current + 1} av ${questions.length}`;
   $("scoreChip").textContent = `${score} poeng`;
   $("question").textContent = item.q;
+  $("questionHint").hidden = !isMultiSelect;
+  if (isMultiSelect) {
+    $("question").setAttribute("aria-describedby", "questionHint");
+  } else {
+    $("question").removeAttribute("aria-describedby");
+  }
   $("progress").style.width = `${((current + 1) / questions.length) * 100}%`;
   $("feedback").textContent = "";
 
@@ -64,7 +70,7 @@ function selectAnswer(selectedIndex) {
   if (answered) return;
 
   const item = questions[current];
-  const isMultiSelect = Array.isArray(item.correct);
+  const isMultiSelect = correctIndices(item).length > 1;
   const buttons = $("options").querySelectorAll(".option");
 
   if (isMultiSelect) {
@@ -97,7 +103,7 @@ function checkAnswer() {
     selectedAnswers.size === correct.length &&
     correct.every((index) => selectedAnswers.has(index));
 
-  const isMultiSelect = Array.isArray(item.correct);
+  const isMultiSelect = correctIndices(item).length > 1;
 
 buttons.forEach((button, index) => {
   button.disabled = true;
@@ -151,6 +157,7 @@ function showResults() {
 
   $("resultRing").style.strokeDashoffset =
     String(circumference * (1 - percentage / 100));
+  window.celebrateQuizResults?.();
 }
 
 function nextQuestion() {
@@ -167,7 +174,7 @@ function nextQuestion() {
 function handleNextButton() {
   const item = questions[current];
 
-  if (Array.isArray(item.correct) && !answered) {
+  if (correctIndices(item).length > 1 && !answered) {
     checkAnswer();
   } else {
     nextQuestion();
