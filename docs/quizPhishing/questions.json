@@ -1,0 +1,49 @@
+{
+"title": "Quiz om phishing",
+"questions": [
+{
+"q": "En melding ser ut til å være fra banken din og sier at kontoen stenges hvis du ikke logger inn via en lenke. Hva gjør dette til et mulig phishingforsøk?",
+"opts": [
+"Meldingen bruker hastverk og prøver å få deg til å oppgi innloggingsinformasjon via en lenke",
+"Meldingen nevner en bank",
+"Meldingen kommer på en hverdag"
+],
+"correct": [0],
+"explanation": "Riktig! Meldingen skaper hastverk og prøver å få deg til å logge inn via en lenke. Dette er vanlige tegn på phishing.",
+"incorrectExplanation": "Se etter hva meldingen prøver å få deg til å gjøre. Trusler om at kontoen stenges, kombinert med en innloggingslenke, kan være tegn på phishing."
+},
+{
+"q": "Du får en melding fra «banken» med en lenke for å bekrefte kontoen. Hva gjør du?",
+"opts": [
+"Trykker på lenken med en gang",
+"Åpner bankens offisielle app eller nettside selv",
+"Sender passordet på SMS"
+],
+"correct": [1],
+"explanation": "Riktig! Åpne bankens app eller skriv inn bankens nettadresse selv. Da unngår du å bruke en lenke som kan føre til en falsk nettside.",
+"incorrectExplanation": "Ikke bruk lenken i meldingen, og send aldri passordet på SMS. Åpne bankens offisielle app eller nettside selv."
+},
+{
+"q": "Hva bør du gjøre hvis en melding ber deg oppgi en engangskode?",
+"opts": [
+"Dele koden hvis avsenderen virker troverdig",
+"Aldri dele koden med andre",
+"Sende koden, men bytte passord etterpå"
+],
+"correct": [1],
+"explanation": "Riktig! En engangskode er personlig. Ikke del den med noen, heller ikke med en person som sier at de jobber i banken.",
+"incorrectExplanation": "Ikke del engangskoden. En svindler kan bruke den til å logge inn eller godkjenne handlinger på kontoen din."
+},
+{
+"q": "Hva kan være et tegn på phishing?",
+"opts": [
+"Meldingen presser deg til å handle raskt og ber om sensitive opplysninger",
+"Meldingen inneholder en hilsen",
+"Meldingen er kort"
+],
+"correct": [0],
+"explanation": "Riktig! Press om å handle raskt og forespørsler om sensitive opplysninger kan være tegn på phishing.",
+"incorrectExplanation": "En hilsen eller en kort melding er ikke nødvendigvis mistenkelig i seg selv. Vær særlig oppmerksom på press om å handle raskt og forespørsler om sensitive opplysninger."
+}
+]
+}
